@@ -40,3 +40,6 @@ void addCommand(String command);
 String undoCommand(); – retorna i elimina l'última comanda.
 void showHistory(); – mostra totes les comandes emmagatzemades fins al moment.
 La implementació del codi ha de ser demostrat mitjançant tests unitaris.
+
+### Explicacioens y comentarios
+- He leido sobre el peligro de usar un singleton usando hilos y la importancia de usar la palabra reservada 'synchronized' para evitar conflictos. Sé que no usamos hilos en este ejercicio pero he querido añadirlo.

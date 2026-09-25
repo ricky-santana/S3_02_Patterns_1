@@ -11,7 +11,7 @@ public class Undo {
         this.commands = new ArrayList<>();
     }
 
-    public static Undo getInstance() {
+    public static synchronized Undo getInstance() {
         if (instance == null){
             instance = new Undo();
         }
